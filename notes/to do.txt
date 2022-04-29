@@ -1,0 +1,2 @@
+*почитать про TextEditingController*
+*почитать про Stateful/Stateless Widget*
