@@ -38,8 +38,7 @@ class Cryption {
     List<BigInt> textList = List.empty(growable: true);
     //create List<BigInt> of ascii from input text
     //example: abc => [97, 98, 99]
-    textList = [for (var i = 0; i < text.length; i++) {
-      BigInt.parse(text.codeUnitAt(i).toString()) }];
+    textList = [for (var i = 0; i < text.length; i++) BigInt.parse(text.codeUnitAt(i).toString())];
 
     //make obfuscation of code:
     //the main goal of obfuscation is
