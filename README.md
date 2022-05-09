@@ -8,4 +8,4 @@
 
 Лабораторная работа 2
 
-путь к 'core' коду: pract2/lib/cryption.dart
+путь к 'core' коду: lib/cryption.dart
